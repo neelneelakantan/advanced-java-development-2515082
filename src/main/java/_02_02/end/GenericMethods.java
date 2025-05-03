@@ -7,7 +7,7 @@ public class GenericMethods {
 
     public static void main(String[] args) {
         String[] words = {"apple", "banana", "pear"};
-        Integer[] numbers = {1, 5, 7};
+        Integer[] numbers = {1, 5, 7, 9};
         List<String> wordsList = convertArrayToList(words);
         List<Integer> numbersList = convertArrayToList(numbers);
         System.out.println(wordsList);
